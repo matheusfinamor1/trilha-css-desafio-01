@@ -8,6 +8,8 @@
     src: url("../trilha-css-desafio-01/assets/fonts/Raleway-Regular.ttf");
 }
 
+/* HEADER */
+
 .banner {
     width: 100%;
     height: 100%;
@@ -37,7 +39,6 @@
     background-repeat: no-repeat;
 }
 
-
 #title-banner {
     font-family: Raleway-Black;
     font-size: 40px;
@@ -66,4 +67,57 @@
     font-size: 16px;
     text-align: center;
     letter-spacing: 3.35px;
+}
+
+/* MAIN */
+
+#course-content {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#course-content h2 {
+    font-family: Raleway-Regular;
+    font-weight: 700;
+    font-size: 32px;
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 3.35px;
+}
+
+#course-content p {
+    color: white;
+    font-family: Raleway-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.modules-list {
+    list-style: none;
+}
+
+.module {
+    width: 535px;
+    height: 51px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: Raleway-Regular;
+    font-weight: 400px;
+    size: 16px;
+    color: white;
+    text-align: center;
+    background-color: rgba(37, 37, 37, 1);
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    box-shadow: inset -2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.modules-list span {
+    color: #33A8DB;
 }
